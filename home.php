@@ -135,7 +135,7 @@
 
    <div class="content">
       <h3>about us</h3>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita et, recusandae nobis fugit modi quibusdam ea assumenda, nulla quisquam repellat rem aliquid sequi maxime sapiente autem ipsum? Nobis, provident voluptate?</p>
+      <p>A3 Bus Services, offers an easy-to-use online platform, thousands of bus operators to choose from, and plenty of offers on bus ticket booking to make road journeys super convenient for travelers.</p>
       <a href="about.php" class="btn">read more</a>
    </div>
 

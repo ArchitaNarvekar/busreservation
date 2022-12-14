@@ -12,10 +12,12 @@
       $arrivals = $_POST['arrivals'];
       $leaving = $_POST['leaving'];
 
-      $request = " insert into book_form(name, email, phone, address, location, guests, arrivals, leaving) values('$name','$email','$phone','$address','$location','$guests','$arrivals','$leaving') ";
-      mysqli_query($connection, $request);
+      $request = "INSERT INTO `pass_details` (`name`, `email`, `phone`, `address`, `location`, `guests`, `arrival`, `leaving`) VALUES ('$name', '$email', '$phone', '$address', '$location', '$guests', '$arrivals', '$leaving')";
+      if(mysqli_query($connection, $request)){
+      // echo "Data Entered ";
+      header("Location: /busreservation-main/home.php");
+      }
 
-      header('location:book.php'); 
 
    }else{
       echo 'something went wrong please try again!';
